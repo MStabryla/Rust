@@ -1,4 +1,4 @@
-$pathToRs = $Args[0] + ".rs"
-$pathToExe = ".\" + $Args[0] + ".exe"
-rustc $pathToRs
-& $pathToExe
+$pathToRs = $Args[0] + "\src\main.rs"
+$pathToExe = $Args[0] + "\main.exe"
+rustc $pathToRs --out-dir $Args[0]
+& $pathToExe $Args[1]

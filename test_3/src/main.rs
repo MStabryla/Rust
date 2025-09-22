@@ -1,4 +1,4 @@
-use std::{i8,i16,i32, io::{stdin,stdout, Write}, num::ParseIntError, process::ExitCode};
+use std::{i32, io::{stdin,stdout, Write}, num::ParseIntError, process::ExitCode};
 
 fn main() -> ExitCode {
     println!("Test 3 - get number input nad operate.");
